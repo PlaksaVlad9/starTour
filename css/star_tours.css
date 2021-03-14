@@ -1,0 +1,589 @@
+@charset"utf-8";
+*{
+	margin: 0;
+	padding: 0;
+	outline: none;
+	text-decoration: none;
+}
+
+body{
+	height: 2350px; 
+	font-family: 'Montserrat', sans-serif;
+	/*background-color: #000;*/
+}
+
+.space{height: 20px;}
+.space_1{height: 50px;}
+
+.clearfix:before,
+.clearfix:after{
+	content: " ";
+	display: table;
+}
+.clearfix:after{clear: both;}
+
+ol, ul{list-style: none;}
+
+header{
+	position: absolute;
+	width: 100%;
+	padding: 10px 0;
+}
+
+.conteiner{
+	width: 90%;
+	margin:0 auto;
+}
+
+.logo{
+	float: left;
+}
+
+.nav{
+	color: #000;
+	float: right;
+	padding-top: 2.8%;
+}
+
+.nav li{
+	float: left;
+	margin-right: 50px;
+}
+
+.nav a{
+	color: #fff;
+	text-transform: uppercase;
+	font:14px Montserrat, sans-serif;
+}
+
+.nav_1{display: none;}
+
+#home{
+	height: 717px;
+	background: #222 url(../img/home-bg.jpg) no-repeat; 
+	background-size: cover;
+}
+
+.number{
+	width: 70%;
+	height: 80px;
+	display: flex;
+	justify-content: space-around;
+	margin: -45px auto;
+	font:17px Montserrat, sans-serif;
+	box-shadow:1px -1px 25.08px 9px rgba(8, 7, 78, 0.15);
+	background-color: #fff;
+}
+
+.phone_1{
+	width: 35%;
+}
+
+.phone{
+	height: 50px;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 5.2%;
+	/* border: 2px solid silver; */
+}
+
+.icon_phone{
+	width: 40px;
+	height: 40px;
+	/*border: 2px solid silver;*/
+}
+
+.num_phone{
+	color: #494949;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.inf{
+	width: 80%;
+	height: 950px;
+	/*border: 2px solid silver;*/
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10%;
+}
+
+.title{
+	font-size: 36px;
+	text-align: center;
+}
+
+.excursions{color: #313131;}
+
+.discription{
+	width: 90%;
+	text-align: center;
+	color: #949095;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 19px;
+    line-height: 32px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0px;
+    text-transform: none;
+    margin-left: auto;
+	margin-right: auto;
+}
+
+.maincard{
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	height: 200px;
+}
+
+.maincard_1{display: none;}
+.maincard_2{display: none;}
+
+.card{
+	width: 31.5%;
+	height: 404px;
+	/*border: 2px solid silver;*/
+	box-shadow:1px -1px 25.08px 1px rgba(8, 7, 78, 0.15);
+}
+
+.pictur{
+	width: 100%;
+	height: 55%;
+}
+
+.title_1{
+	font:15px Montserrat, sans-serif; 
+	color: #313131;
+	margin: 7% 0% 0% 6%;
+}
+
+.discription_1{
+	height: 17px;
+	color: #B5ADAD
+}
+
+.buttom_line{
+	background-color: #E54B4B ;
+	height: 28px;
+	margin-top: 90px;
+}
+
+.beach{
+	height: 483px;
+	background: #222 url(../img/beach.jpg) no-repeat;
+	background-size: cover;
+}
+
+footer{
+	position: relative;
+	height: 500px;
+	background-color: #000;
+}
+
+.mainp{
+	position: absolute;
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	text-align:left;
+	margin-top: 13%;
+	color: #fff;
+	font-weight: 00;
+}
+
+.p_1{
+	width: 20%;
+	height: 230px;
+	font:17px Montserrat, sans-serif;
+	color: #fff;
+	text-align: left;
+	/*border: 2px solid #fff;*/
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	
+}
+
+.text{margin: 0 0 10% 8%;}
+
+.p_2{
+	width: 18%;
+	height: 222px;
+	font:17px Montserrat, sans-serif;
+	color: #fff;
+	text-align: left;
+	/*border: 2px solid #fff;*/
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+
+}
+
+.p_3{
+	width: 18%;
+	height: 230px;
+	font:17px Montserrat, sans-serif;
+	color: #fff;
+	text-align: left;
+	/*border: 2px solid #fff;*/
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.p_4{
+	width: 18%;
+	height: 230px;
+	font:17px Montserrat, sans-serif;
+	color: #fff;
+	text-align: left;
+	/*border: 2px solid #fff;*/
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+
+.title_2{
+	color: #fff;
+	font:22px Montserrat, sans-serif;
+	margin: 5% 0 0 8%; 
+}
+
+.footer_img{
+	margin-left: -35%;
+}
+
+.mainp_1{display: none;}
+
+@media only screen and (max-width:1080px){
+	.conteiner{
+		width: 100%;
+	}
+
+	#home{
+		margin-left: -15%;
+	}
+
+	.number{
+	justify-content: space-between;
+	}
+
+	.phone_1{
+		margin-left: 3%;
+		width: 45%;
+	}
+
+	.maincard{
+		width: 120%;
+		margin-left: -10%;
+	}
+
+	.p_1{
+		width: 60%;
+	}
+
+	.mainp{
+		width: 99%;
+		display: flex;
+		margin: 10% 0 0 1%;
+	}
+
+	.p_2{width: 50%;}
+
+	.p_3{width: 50%;}
+
+	.p_4{
+		width: 50%;
+		height: 180px;
+	}
+
+	footer{
+		height: 450px;
+	}
+}
+
+@media only screen and (max-width: 900px){
+	.conteiner{
+		width: 90%;
+		display: block;
+	}
+
+	.logo{margin-left: 40%}
+
+	.nav{margin-left: -25%;}
+
+	#home{
+		margin-left: -50%;
+		background: #222 url(../img/home.png) no-repeat;
+	}
+	.number{display: none;}
+
+	.phone_1{
+		margin-left: 1%;
+		width: 45%;
+	}
+
+	.maincard{
+		width: 120%;
+		margin-left: -10%;
+	}
+
+	.p_1{
+		width: 60%;
+	}
+
+	.mainp{
+		width: 99%;
+		display: flex;
+		margin: 10% 0 0 1%;
+	}
+
+	.p_2{width: 50%;}
+
+	.p_3{width: 50%;}
+
+	.p_4{
+		width: 50%;
+		height: 180px;
+	}
+
+	footer{
+		height: 450px;
+	}
+}
+
+@media only screen and (max-width: 800px){
+	.conteiner{
+		width: 90%;
+		display: block;
+	}
+
+	.logo{margin-left: 40%}
+
+	#home{
+		margin-left: -50%;
+		background: #222 url(../img/home.png) no-repeat;
+	}
+
+	.number{display: none;}
+
+	.phone_1{
+		margin-left: 1%;
+		width: 45%;
+	}
+
+	.beach{margin-top: 65%;}
+
+	.maincard_1{
+		display: block;
+		width: 120%;
+		margin-left: -17%;
+	}
+
+	.maincard{display: none;}
+
+	.p_1{
+		width: 90%;
+		margin-left: 1%;
+	}
+
+	.mainp_1{
+		display: block;
+		margin-top: 0%;
+		position: relative;
+		height: 300px;
+	}
+
+	.mainp{
+		display: none;
+	}
+
+	.card{
+		width: 40%;
+		height: 404px;
+		margin: 0 0 0 15%;
+	}
+	.card_1{
+		width: 40%;
+		height: 404px;
+	}
+	.card_2{
+		width: 40%;
+		height: 404px;
+		margin: 3% 0 0 40%;
+	}
+
+	.card_3{
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.shadow{box-shadow:1px -1px 25.08px 1px rgba(8, 7, 78, 0.15);}
+
+	.buttom_line{height: 32px;}
+
+	.p_2{width: 60%;}
+
+	.p_3{width: 60%;}
+
+	.p_4{
+		width: 60%;
+		height: 180px;
+	}
+
+	.p_5{
+		display: flex;
+		justify-content: space-between;
+		margin: 6% 0 0 5%;
+		position: absolute;
+	}
+
+	.p_6{
+		display: flex;
+		justify-content: center;
+		position: absolute;
+		margin: 39% 0 0 25%;
+	}
+
+	.title_2{
+		width: 90%;
+	}
+
+	.beach{margin-left: -15%;}
+
+	footer{
+		height: 550px;
+	}
+}
+
+@media only screen and (max-width: 720px){
+	.conteiner{
+		width: 80%;
+		display: block;
+	}
+	.nav{
+		display: none;
+		padding: 0;
+		margin: auto;
+		float: left;
+	}
+
+	.nav li{
+		margin-right: 30px;
+	}
+
+	.nav_1{
+		display: block;
+		width: 90%;
+		margin-left: 10%; 
+	}
+
+	.nav_1_inner_1{margin: 10% 0 0 10%;}
+
+	.logo{margin-left: 30%;}
+
+	.maincard_1{display: none;}
+	.maincard_2{display: none;}
+	
+	.maincard{
+		display: block;
+		width: 100%;
+	}
+
+	.card{
+		width: 65%;
+		margin: 8% 0 0 30%;
+	}
+
+	.inf{height: 2100px;}
+
+	.beach{margin: 25% 0 0 -25%;}
+
+	footer{height: 945px;}
+
+	.mainp{
+		display: block;
+		width: 80%;
+		margin-left: 20%;
+	}
+	.mainp_1{display: none;}
+}
+
+@media only screen and (max-width: 600px){
+	.nav_1{
+		margin-left: 20%;
+	}
+}
+
+@media only screen and (max-width: 470px){
+	.conteiner{width: 100%;}
+
+	.nav{display: none;}
+	.nav_1{
+		display: block;
+		width: 80%;
+	}
+
+	.nav_1_inner_1{margin: 10% 0 0 17%;}
+
+	.space{height: 30px;}
+
+	.maincard_1{display: none;}
+	.maincard_2{display: none;}
+	
+	.maincard{
+		display: block;
+		width: 100%;
+	}
+
+	.inf{height: 2150px;}
+
+	.card{
+		width: 80%;
+		margin: 8% 0 0 20%;
+	}
+	
+
+	.beach{margin: 25% 0 0 -65%;}
+
+	footer{height: 945px;}
+
+	.mainp{
+		display: block;
+		width: 85%;
+		margin-left: 15%;
+	}
+	.mainp_1{display: none;}
+
+	.logo{margin-left: 25%;}
+}
+
+@media only screen and (max-width: 440px){
+	.nav li {
+    	margin-right: 20px;
+	}
+
+	.nav_1{
+		margin-left: 9%;
+		width: 90%;
+	}
+
+	.nav_1_inner_1{margin: 6% 0 0 13%;}
+
+	.card{
+		width: 100%;
+		margin-left: 9%;
+	}
+
+	.inf{height: 2450px;}
+
+	.beach{margin: 20% 0 0 -83%;}
+
+	footer{height: 1050px;}
+	.p_1{margin: 5% 0 0 0;}
+	.p_2{margin: 5% 0 0 0;}
+	.p_3{margin: 5% 0 0 0;}
+	.p_4{margin: 10% 0 0 0;}
+}

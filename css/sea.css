@@ -1,0 +1,482 @@
+@charset"utf-8";
+*{
+	margin: 0;
+	padding: 0;
+	outline: none;
+	text-decoration: none;
+	/*border: 2px solid #000;*/
+}
+
+body{ 
+	font-family: 'Montserrat', sans-serif;
+	/*background-color: #000;*/
+}
+
+.space{height: 20px;}
+.space_1{height: 50px;}
+
+.clearfix:before,
+.clearfix:after{
+	content: " ";
+	display: table;
+}
+.clearfix:after{clear: both;}
+
+ol, ul{list-style: none;}
+
+header { 
+	width: 100%;
+	padding: 10px 0;
+}
+
+.conteiner{
+	width: 90%;
+	margin:0 auto;
+}
+
+.logo{
+	float: left;
+}
+
+.nav{
+	color: #000;
+	float: right;
+	padding-top: 2.8%;
+}
+
+.nav_1{display: none;}
+
+.nav li{
+	float: left;
+	margin-right: 50px;
+}
+
+.nav a{
+	color: #000;
+	text-transform: uppercase;
+	font:14px Montserrat, sans-serif;
+}
+
+#home{
+	position: relative;
+	height: 530px;
+	background: #222 url(../img/sea.jpg) no-repeat; 
+	background-size: cover;
+}
+
+.water_sport{
+	font-weight: 600;
+	color: #fff;
+	text-transform: uppercase;
+	font:55px Montserrat, sans-serif;
+	display: flex;
+	justify-content: center;
+	position: absolute;
+	margin: 15% 0 0 25%;
+	display: block;
+}
+
+.text_1{
+	font:20px Montserrat, sans-serif;
+	display: flex;
+	justify-content: center;
+}
+
+.article{
+	width: 90%;
+	margin: 7% 0 0 10% ;
+}
+
+.title{
+	font:40px Montserrat, sans-serif;
+}
+
+.discription{
+	width: 60%;
+	font:20px Montserrat, sans-serif;
+	color: #949090;
+	margin: 2% 0 0 0;
+}
+
+.text_2{
+	width: 60%;
+	margin: 2% 0 0 0;
+}
+
+.gallary_1{
+	width: 20%;
+	margin-top: 2%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.gallary_2{
+	width: 100%;
+	height: 24%;
+	margin-left: 15%;
+}
+
+.gallary{
+	width: 90%;
+	height: 25%;
+	margin: 5% 0 0 8%
+}
+
+.img_title{
+	font:30px Montserrat, sans-serif;
+	color: #333333;
+	margin-left: 2.8%;
+}
+
+
+
+
+
+footer{
+	margin-top: 7%;
+	position: relative;
+	height: 400px;
+	background-color: #000;
+}
+
+.mainp_1{display: none;}
+
+.mainp{
+	position: absolute;
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	text-align:left;
+	margin-top: 7%;
+	color: #fff;
+}
+
+.p_1{
+	width: 20%;
+	height: 230px;
+	font:17px Montserrat, sans-serif;
+	color: #fff;
+	text-align: left;
+	/*border: 2px solid #fff;*/
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	
+}
+
+.text{margin: 0 0 10% 8%;}
+
+.p_2{
+	width: 18%;
+	height: 222px;
+	font:17px Montserrat, sans-serif;
+	color: #fff;
+	text-align: left;
+	/*border: 2px solid #fff;*/
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+
+}
+
+.p_3{
+	width: 18%;
+	height: 230px;
+	font:17px Montserrat, sans-serif;
+	color: #fff;
+	text-align: left;
+	/*border: 2px solid #fff;*/
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.p_4{
+	width: 18%;
+	height: 230px;
+	font:17px Montserrat, sans-serif;
+	color: #fff;
+	text-align: left;
+	/*border: 2px solid #fff;*/
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+
+.title_2{
+	color: #fff;
+	font:22px Montserrat, sans-serif;
+	margin: 5% 0 0 8%; 
+}
+
+.footer_img{
+	margin-left: -35%;
+}
+
+@media only screen and (max-width: 900px){
+	
+
+	.conteiner{
+		width: 90%;
+		display: block;
+	}
+
+	.logo{margin-left: 40%}
+
+	#home{
+		margin-left: -20%;
+	}
+
+	.article_bottom{display: none;}
+
+	.p_1{
+		width: 60%;
+	}
+
+	.mainp{
+		width: 99%;
+		display: flex;
+		margin: 10% 0 0 1%;
+	}
+
+	.p_2{width: 50%;}
+
+	.p_3{width: 50%;}
+
+	.p_4{
+		width: 50%;
+		height: 180px;
+	}
+
+	footer{
+		height: 450px;
+	}
+
+	.gallary_2{width: 150%;}
+}
+
+@media only screen and (max-width: 800px){
+	.conteiner{
+		width: 100%;
+		display: block;
+	}
+
+	.logo{margin-left: 40%}
+
+	.water_sport{
+		margin: 7% 0 0 23%;
+		font-size: 45px;
+	}
+
+	#home{height: 260px;}
+
+	.article_top{
+		margin-left: 4%;
+		width: 77%;
+	}
+
+	.map{display: none;}
+
+	.p_1{
+		width: 90%;
+		margin-left: 1%;
+	}
+
+	.mainp_1{
+		display: block;
+		margin-top: 0%;
+		position: relative;
+		height: 300px;
+	}
+
+	.mainp{
+		display: none;
+	}
+
+	.p_2{width: 60%;}
+
+	.p_3{width: 60%;}
+
+	.p_4{
+		width: 60%;
+		height: 180px;
+	}
+
+	.p_5{
+		display: flex;
+		justify-content: space-between;
+		margin: 6% 0 0 5%;
+		position: absolute;
+	}
+
+	.p_6{
+		display: flex;
+		justify-content: center;
+		position: absolute;
+		margin: 39% 0 0 25%;
+	}
+
+	.title_2{
+		width: 90%;
+	}
+
+	.beach{margin-left: -15%;}
+
+	footer{
+		height: 550px;
+	}
+}
+
+@media only screen and (max-width: 700px){
+	.nav{display: none;}
+	.nav_1{
+		display: block;
+		float:left;
+		margin-left: 25%; 
+	}
+
+	.logo{margin-left: 35%;}
+
+	.water_sport{
+		font-size:45px;
+		margin: 12% 0 0 25%;
+	}
+
+	.nav_1_inner_1{margin: 10% 0 0 9%;}
+
+	.mainp{
+		display: block;
+		width: 70%;
+		margin-left: 25%;
+	}
+
+	.mainp_1{display: none;}
+
+	footer{height: 1050px;}
+	.p_1{margin: 5% 0 0 0;}
+	.p_2{margin: 5% 0 0 0;}
+	.p_3{margin: 5% 0 0 0;}
+	.p_4{margin: 5% 0 0 0;}
+
+	.gallary_2{width: 200%;}
+}
+
+@media only screen and (max-width: 600px){
+	.water_sport{
+		margin: 11% 0 0 21%;
+		font-size: 35px;
+	}
+
+	.nav_1{margin-left: 20%;}
+
+	.nav li{margin-right: 40px;}
+}
+
+@media only screen and (max-width: 500px){
+	.nav li {
+    margin-right: 30px;
+	}
+	.nav{display: none;}
+	.nav_1{
+		display: block;
+		float:left;
+		margin-left: 20%;
+	}
+
+	.logo{}
+
+	.nav_1_inner_1{margin: 10% 0 0 17%;}
+
+	.about_us{margin: 15% 0 0 30%;}
+
+	.gallary_1{display: block;}
+
+	.gallary_2{
+		width: 250%;
+		margin: 5% 0 0 35%;
+	}
+
+	.water_sport{
+		margin: 15% 0 0 18%;
+		font-size: 35px;
+	}
+
+	footer{height: 1050px;}
+
+	.mainp{
+		display: block;
+		width: 85%;
+		margin-left: 15%;
+	}
+	.mainp_1{display: none;}
+
+	.logo{margin-left: 30%;}
+}
+
+@media only screen and (max-width: 425px){
+	.nav li {
+    margin-right: 30px;
+	}
+	.nav{display: none;}
+	.nav_1{
+		display: block;
+		float:left;
+		margin-left: 15%;
+	}
+
+	.nav_1_inner_1{margin: 10% 0 0 17%;}
+
+	.water_sport{
+		margin-left: 20%;
+		font-size: 30px;
+	}
+
+	.gallary{
+		margin-left: 17%;
+		width: 83%;
+	}
+
+	.gallary_1{display: block;}
+
+	.gallary_2{
+		width: 350%;
+		margin: 3% 0 0 5%;
+	}
+
+	footer{height: 1050px;}
+
+	.mainp{
+		display: block;
+		width: 85%;
+		margin-left: 15%;
+	}
+	.mainp_1{display: none;}
+
+	.logo{margin-left: 25%;}
+}
+
+@media only screen and (max-width: 375px){
+	.nav li {
+    	margin-right: 30px;
+	}
+
+	.nav_1{
+		display: block;
+		float:left;
+		margin-left: 8%;
+	}
+
+	.nav_1_inner_1{margin: 10% 0 0 13%;}
+
+	.water_sport{
+		margin:25% 0 0 17%;
+		font-size: 30px;
+	}
+
+	footer{height: 1050px;}
+	.p_1{margin: 5% 0 0 0;}
+	.p_2{margin: 5% 0 0 0;}
+	.p_3{margin: 5% 0 0 0;}
+	.p_4{margin: 10% 0 0 0;}
+}

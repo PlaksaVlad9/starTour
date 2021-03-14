@@ -1,0 +1,475 @@
+@charset"utf-8";
+*{
+	margin: 0;
+	padding: 0;
+	outline: none;
+	text-decoration: none;
+}
+
+body{ 
+	font-family: 'Montserrat', sans-serif;
+	/*background-color: #000;*/
+}
+
+.space{height: 20px;}
+.space_1{height: 50px;}
+
+.clearfix:before,
+.clearfix:after{
+	content: " ";
+	display: table;
+}
+.clearfix:after{clear: both;}
+
+ol, ul{list-style: none;}
+
+header{
+	width: 100%;
+	padding: 10px 0;
+}
+
+.conteiner{
+	width: 90%;
+	margin:0 auto;
+}
+
+.logo{
+	float: left;
+}
+
+.nav_1{display: none;}
+
+.nav{
+	color: #000;
+	float: right;
+	padding-top: 2.8%;
+}
+
+.nav li{
+	float: left;
+	margin-right: 50px;
+}
+
+.nav a{
+	color: #000;
+	text-transform: uppercase;
+	font:14px Montserrat, sans-serif;
+}
+
+#home{
+	position: relative;
+	height: 360px;
+	background: #222 url(../img/rocksheader.jpg) no-repeat; 
+	background-size: cover;
+}
+
+.about_zanzibar{
+	font-weight: 600;
+	color: #fff;
+	text-transform: uppercase;
+	font:60px Montserrat, sans-serif;
+	display: flex;
+	justify-content: center;
+	position: absolute;
+	margin: 10% 0 0 30%;
+}
+
+.article_top{
+	width: 90%;
+	display: flex;
+	justify-content: center;
+}
+
+.sea{margin: 2% 0 0 10%;}
+
+.article_top_img{
+	width: 535px;
+}
+
+.title{
+	font:30px Montserrat, sans-serif;
+	color: #313131;
+	margin: 5% 0 0 5%;
+	line-height: 32px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0px;
+    text-transform: none;
+}
+
+.discription{
+	font: 20px Montserrat, sans-serif;
+	color: #949090;
+	margin: 5% 0 0 5%;
+	line-height: 32px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0px;
+    text-transform: none;
+}
+
+.text_1{
+	font: 16px Montserrat, sans-serif;
+	color: #33333;
+	margin: 5% 0 0 5%;
+	line-height: 24px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.article_midle{
+	width: 90%;
+	margin: 0 0 2% 8%;
+}
+
+.text_2{
+	color: #333333;
+	font: 17px Montserrat, sans-serif;
+	margin: 0 0 2% 0%;
+}
+
+
+
+
+
+.article_bottom{
+	margin: 2% 0 0 7%;
+	width: 85%;
+	display: flex;
+	justify-content: space-around;
+}
+
+.article_bottom_img{
+	width: 260px;
+	height: 170px;
+}
+
+footer{
+	position: relative;
+	height: 500px;
+	margin-top: 2%;
+	background-color: #000;
+}
+
+.mainp_1{display: none;}
+
+.mainp{
+	position: absolute;
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	text-align:left;
+	margin-top: 13%;
+	color: #fff;
+	font-weight: 00;
+}
+
+.p_1{
+	width: 20%;
+	height: 230px;
+	font:17px Montserrat, sans-serif;
+	color: #fff;
+	text-align: left;
+	/*border: 2px solid #fff;*/
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	
+}
+
+.text{margin: 0 0 10% 8%;}
+
+.p_2{
+	width: 18%;
+	height: 222px;
+	font:17px Montserrat, sans-serif;
+	color: #fff;
+	text-align: left;
+	/*border: 2px solid #fff;*/
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+
+}
+
+.p_3{
+	width: 18%;
+	height: 230px;
+	font:17px Montserrat, sans-serif;
+	color: #fff;
+	text-align: left;
+	/*border: 2px solid #fff;*/
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.p_4{
+	width: 18%;
+	height: 230px;
+	font:17px Montserrat, sans-serif;
+	color: #fff;
+	text-align: left;
+	/*border: 2px solid #fff;*/
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+
+.title_2{
+	color: #fff;
+	font:22px Montserrat, sans-serif;
+	margin: 5% 0 0 8%; 
+}
+
+.footer_img{
+	margin-left: -35%;
+}
+
+@media only screen and (max-width: 900px){
+	
+	.conteiner{
+		width: 90%;
+		display: block;
+	}
+
+	.logo{margin-left: 40%}
+
+	#home{
+		margin-left: -20%;
+	}
+
+	.article_bottom{display: none;}
+
+	.p_1{
+		width: 60%;
+	}
+
+	.mainp{
+		width: 99%;
+		display: flex;
+		margin: 10% 0 0 1%;
+	}
+
+	.p_2{width: 50%;}
+
+	.p_3{width: 50%;}
+
+	.p_4{
+		width: 50%;
+		height: 180px;
+	}
+
+	footer{
+		height: 450px;
+	}
+}
+
+@media only screen and (max-width: 800px){
+	.conteiner{
+		width: 100%;
+		display: block;
+	}
+
+	.logo{margin-left: 40%}
+
+	#home{height: 260px;}
+
+	.article_top{
+		margin-left: 4%;
+		width: 77%;
+	}
+
+	.article_top_img{display: none;}
+
+	.p_1{
+		width: 90%;
+		margin-left: 1%;
+	}
+
+	.mainp_1{
+		display: block;
+		margin-top: 0%;
+		position: relative;
+		height: 300px;
+	}
+
+	.mainp{
+		display: none;
+	}
+
+	.p_2{width: 60%;}
+
+	.p_3{width: 60%;}
+
+	.p_4{
+		width: 60%;
+		height: 180px;
+	}
+
+	.p_5{
+		display: flex;
+		justify-content: space-between;
+		margin: 6% 0 0 5%;
+		position: absolute;
+	}
+
+	.p_6{
+		display: flex;
+		justify-content: center;
+		position: absolute;
+		margin: 39% 0 0 25%;
+	}
+
+	.title_2{
+		width: 90%;
+	}
+
+	.beach{margin-left: -15%;}
+
+	footer{
+		height: 500px;
+	}
+}
+
+@media only screen and (max-width: 700px){
+	.nav{display: none;}
+	.nav_1{
+		display: block;
+		float:left;
+		margin-left: 20%; 
+	}
+
+	.logo{margin-left: 30%;}
+
+	.nav_1_inner_1{margin: 10% 0 0 9%;}
+
+	.about_zanzibar{margin: 10% 0 0 22%;}
+
+	.mainp{
+		display: block;
+		width: 70%;
+		margin-left: 25%;
+	}
+
+	.mainp_1{display: none;}
+
+	footer{height: 1050px;}
+	.p_1{margin: 5% 0 0 0;}
+	.p_2{margin: 5% 0 0 0;}
+	.p_3{margin: 5% 0 0 0;}
+	.p_4{margin: 10% 0 0 0;}
+}
+
+@media only screen and (max-width: 600px){
+	.nav li{margin-right: 40px;}
+	.nav{display: none;}
+	.nav_1{
+		display: block;
+		float:left;
+		margin-left: 20%; 
+	}
+
+	.logo{margin-left: 30%;}
+
+	.nav_1_inner_1{margin: 10% 0 0 9%;}
+
+	.about_zanzibar{
+		margin: 12% 0 0 30%;
+		font-size: 45px;
+	}
+
+	.mainp{
+		display: block;
+		width: 70%;
+		margin-left: 25%;
+	}
+
+	.mainp_1{display: none;}
+
+	footer{height: 1050px;}
+	.p_1{margin: 5% 0 0 0;}
+	.p_2{margin: 5% 0 0 0;}
+	.p_3{margin: 5% 0 0 0;}
+	.p_4{margin: 10% 0 0 0;}
+}
+
+@media only screen and (max-width: 500px){
+	.nav li {
+    margin-right: 30px;
+	}
+	.nav{display: none;}
+	.nav_1{
+		display: block;
+		float:left;
+		margin-left: 15%;
+	}
+
+	.nav_1_inner_1{margin: 10% 0 0 17%;}
+
+	.about_zanzibar{margin: 14% 0 0 23%;}
+
+	footer{height: 1050px;}
+
+	.mainp{
+		display: block;
+		width: 85%;
+		margin-left: 15%;
+	}
+	.mainp_1{display: none;}
+
+	.logo{margin-left: 25%;}
+}
+
+@media only screen and (max-width: 425px){
+	.nav li {
+    margin-right: 30px;
+	}
+	.nav{display: none;}
+	.nav_1{
+		display: block;
+		float:left;
+		margin-left: 15%;
+	}
+
+	.nav_1_inner_1{margin: 10% 0 0 17%;}
+
+	.about_zanzibar{margin: 17% 0 0 17.5%;}
+
+	footer{height: 1050px;}
+
+	.mainp{
+		display: block;
+		width: 85%;
+		margin-left: 15%;
+	}
+	.mainp_1{display: none;}
+
+	.logo{margin-left: 25%;}
+}
+
+@media only screen and (max-width: 402px){
+	.nav li {
+    	margin-right: 30px;
+	}
+
+	.nav_1{
+		display: block;
+		float:left;
+		margin-left: 8%;
+	}
+
+	.nav_1_inner_1{margin: 10% 0 0 13%;}
+
+	.about_zanzibar{
+		margin: 20% 0 0 16.8%;
+		font-size: 40px;
+	}
+
+	footer{height: 1050px;}
+	.p_1{margin: 5% 0 0 0;}
+	.p_2{margin: 5% 0 0 0;}
+	.p_3{margin: 5% 0 0 0;}
+	.p_4{margin: 10% 0 0 0;}
+}
